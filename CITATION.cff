@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DMRG-algorithm"
+authors:
+  - name: "Thibaud Lesquereux"
+    github: "thibaud737"
+license: "MIT"
+repository-code: "https://github.com/thibaud737/DMRG-algorithm"
+date-released: "2025-05-27"
+version: "main"
+url: "https://github.com/thibaud737/DMRG-algorithm"
+type: software
