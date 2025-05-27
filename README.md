@@ -18,36 +18,35 @@ It includes implementations for various spin models (Heisenberg, Ising, AKLT, an
 - **Correlation Functions:** Compute and analyze spin correlation functions and correlation lengths.
 - **Exact Diagonalization:** Compare DMRG results with exact diagonalization for small systems.
 
-   ## File Structure
+## File Structure
 
-   - `main.py`: Main script with example usages and workflow.
-   - `MPS.py`: Matrix Product State class.
-   - `MPO.py`: Matrix Product Operator class.
-   - `Heisenberg_MPO.py`, `Ising_MPO.py`, `AKLT_MPO.py`, `Heisenberg_alternate_MPO.py`: Model-specific MPOs.
-   - `exact_diag_OBC.py`: Exact diagonalization routines.
-   - `test_conv.py`: Convergence test utilities.
-   - `phase_diagram.py`: Phase diagram and order parameter calculations.
-   - `Data.py`: Data storage and retrieval utilities.
+- `main.py`: Main script with example usages and workflow.
+- `MPS.py`: Matrix Product State class.
+- `MPO.py`: Matrix Product Operator class.
+- `Heisenberg_MPO.py`, `Ising_MPO.py`, `AKLT_MPO.py`, `Heisenberg_alternate_MPO.py`: Model-specific MPOs.
+- `exact_diag_OBC.py`: Exact diagonalization routines.
+- `test_conv.py`: Convergence test utilities.
+- `phase_diagram.py`: Phase diagram and order parameter calculations.
+- `Data.py`: Data storage and retrieval utilities.
 
-   ## Usage
+## Usage
 
-   1. **Install dependencies:**
-      - Python 3.x
-      - `numpy`
-      - `matplotlib`
+1. **Install dependencies:**
+   - Python 3.x
+   - `numpy`
+   - `matplotlib`
 
-   2. **Run the main script:**
-      ```
-      python main.py
-      ```
-      Uncomment the relevant code blocks in `main.py` to perform the desired calculations (ground state search, entropy, correlations, etc.).
+2. **Run the main script:**
+   ```
+   python main.py
+   ```
+   Uncomment the relevant code blocks in `main.py` to perform the desired calculations (ground state search, entropy, correlations, etc.).
 
-   3. **Customize parameters:**  
-      Edit the parameters (system size `L`, bond dimension `D`, couplings, etc.) in `main.py` as needed for your study.
+3. **Customize parameters:**  
+   Edit the parameters (system size `L`, bond dimension `D`, couplings, etc.) in `main.py` as needed for your study.
 
-   ## Example
-
-   See main.py for an example of how to create an MPS, define an MPO, and perform a variational ground state search. The script also includes examples for data storage, convergence testing, and phase diagram calculations.
-   ## Notes
-   - Ensure that the `Data.py` module is properly configured to store and retrieve data files.
-   - The convergence tests and phase diagrams can take significant computational time depending on the system size and bond dimension.
+## Example
+See main.py for an example of how to create an MPS, define an MPO, and perform a variational ground state search. The script also includes examples for data storage, convergence testing, and phase diagram calculations.
+## Notes
+- Ensure that the `Data.py` module is properly configured to store and retrieve data files.
+- The convergence tests and phase diagrams can take significant computational time depending on the system size and bond dimension.
