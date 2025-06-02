@@ -1,5 +1,5 @@
 # DMRG-algorithm
-DMRG algorithm using python for a Master project by Thibaud Lesquereux
+DMRG algorithm using python for a Master project by Thibaud Lesquereux at EPFL
 
 ## Overview
 
